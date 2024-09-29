@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:rgb(244, 228, 163);
+    text-decoration: none;
+}
+.bar{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap:8rem;
+    text-decoration: none;
+    background-color: rgb(2, 14, 26);
+    height: 4rem;
+    width: 100rem;
+
+}
+p{
+   
+    margin: 1.5rem;
+    font-size: larger;
+    
+}
+#one{
+    margin:1rem;
+}
+body{
+    
+    background-image: url("4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    height:100vh;
+    
+}
+#button{
+    margin:1rem;
+    justify-content:right;
+    text-align: left;
+    height:2rem;
+    width: 2rem;
+    text-align:left;
+}
+img{
+    height:2rem;
+    width: 2rem;
+}
+select{
+    background-color: aqua;
+    /* background-image: url("6.png"); */
+}
