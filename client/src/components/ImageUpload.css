@@ -1,0 +1,65 @@
+/* ImageUpload.css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+  padding: 0;
+  }
+  
+  body, html {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+  .upload-container {
+    background-color: #bfa4a4;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-color: black;
+    width: 400px;
+    margin: auto;
+  }
+  
+  h2 {
+    margin: 0 0 15px;
+  }
+  
+  input[type="file"] {
+    margin-bottom: 20px;
+  }
+  
+  .image-preview {
+    width: 100%;
+    height: 200px;
+    border: 2px dashed #121111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #f0eff4;
+  }
+  
+  .image-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .upload{
+    font-size:larger;
+    border-radius: 2rem;
+    
+    width: 100%;
+    height: 10%;
+    background-color:#f87d7daa;
+  }
+  

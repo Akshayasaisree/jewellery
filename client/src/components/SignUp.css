@@ -1,0 +1,101 @@
+/* src/components/SignUp.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+  }
+  
+  .signup-container {
+    width: 400px;
+    margin: 200px auto;
+    background-color: #9e829c;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  button{
+    border: #333;
+  }
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #28a745;
+    outline: none;
+  }
+  
+  .sign {
+    width: 100%;
+    background-color: #291528;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sign:hover {
+    background-color: #2915286c;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+  }
+/* src/components/Login.css and src/components/SignUp.css */
+
+.extra-links {
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .extra-links a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .sign{
+    text-decoration: none;
+    color: #fff;
+  }
+  .extra-links a:hover {
+    color: #0056b3;
+  }
+  
+  p {
+    margin: 0;
+  }
+    
